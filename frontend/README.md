@@ -7,37 +7,41 @@ This repository contains a full-stack mini project management portal with:
 ---
 
 
-## Folder Structure
+## Project Structure
 
+```text
 Project Management Portal/
-├─ backend/
-│  ├─ config/
-│  │  └─ db.js
-│  ├─ controllers/
-│  │  ├─ authController.js
-│  │  └─ taskController.js
-│  ├─ middleware/
-│  │  └─ authMiddleware.js
-│  ├─ models/
-│  │  ├─ taskModel.js
-│  │  └─ userModel.js
-│  ├─ routes/
-│  │  ├─ authRoutes.js
-│  │  └─ taskRoutes.js
-│  ├─ tests/
-│  │  └─ task.test.js
-│  ├─ package.json
-│  └─ server.js
-├─ frontend/
-│  ├─ src/
-│  │  ├─ components/
-│  │  ├─ pages/
-│  │  ├─ services/
-│  │  ├─ App.jsx
-│  │  └─ main.jsx
-└─ README.md
+├── backend/
+│   ├── config/
+│   │   └── db.js              # Database connection configuration
+│   ├── controllers/
+│   │   ├── authController.js   # Authentication logic
+│   │   └── taskController.js   # Task CRUD operations
+│   ├── middleware/
+│   │   └── authMiddleware.js   # JWT authentication middleware
+│   ├── models/
+│   │   ├── taskModel.js        # Task database queries/model
+│   │   └── userModel.js        # User database queries/model
+│   ├── routes/
+│   │   ├── authRoutes.js       # Authentication routes
+│   │   └── taskRoutes.js       # Task routes
+│   ├── tests/
+│   │   └── task.test.js        # Unit tests for task APIs
+│   ├── package.json            # Backend dependencies
+│   └── server.js               # Main backend entry point
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/         # Reusable UI components
+│   │   ├── pages/              # Application pages
+│   │   ├── services/           # API service calls
+│   │   ├── App.jsx             # Main app component
+│   │   └── main.jsx            # React entry point
+│   ├── package.json            # Frontend dependencies
+│
+└── README.md                   # Project documentation
+```
 
----
 
 ## Prerequisites
 
