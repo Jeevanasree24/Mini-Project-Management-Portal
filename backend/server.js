@@ -10,7 +10,10 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173', // React frontend URL
+  origin: [
+    'http://localhost:5173',
+    'https://mini-project-management-portal-zeta.vercel.app'
+  ],
   credentials: true
 }));
 app.use(express.json());
