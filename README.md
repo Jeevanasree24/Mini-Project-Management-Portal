@@ -1,7 +1,7 @@
 ## Live Demo
 
 Frontend (Vercel):
-https://mini-project-management-portal-zeta.vercel.app
+[https://mini-project-management-portal-zeta.vercel.app](https://mini-project-management-portal-zeta.vercel.app/#/login)
 
 Backend (Render):
 https://mini-project-management-portal-0v8n.onrender.com
