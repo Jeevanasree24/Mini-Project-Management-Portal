@@ -1,3 +1,11 @@
+## Live Demo
+
+Frontend (Vercel):
+https://mini-project-management-portal-zeta.vercel.app
+
+Backend (Render):
+https://mini-project-management-portal-0v8n.onrender.com
+
 # Mini Project Management Portal
 
 This repository contains a full-stack mini project management portal with:
